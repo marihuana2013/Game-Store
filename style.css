@@ -1,0 +1,106 @@
+header {
+    background-image:linear-gradient(#4E4E4E, #000000) ;
+    border: 5px inset black;
+    color: #3B93E0;
+
+}
+
+.logo {
+      border: 3px inset #4E4E4E;
+}
+
+.pov{
+    text-decoration: none;
+   font-size: 25px;
+   color: #440180;
+   border: 3px inset #4E4E4E;
+      background-image:linear-gradient(#0C1012, #000000) ;
+      margin: 5px;
+}
+
+.new {
+    text-align: center;
+}
+
+main {
+      
+      
+        color: #3B93E0;
+
+}
+
+.ine {
+      border: 5px inset #4E4E4E;
+}
+
+
+.us {
+       
+          display: flex;
+}
+
+.last {
+    width: 500px;
+   margin:  20px;
+}
+
+.steam {
+    color: #3B93E0;
+}
+
+
+.st {
+    border-radius: 21px;
+}
+
+
+.rai {
+    font-size: 24px;
+}
+
+body {
+ background-color: #090014;
+  color: #3B93E0;
+}
+
+.dis {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.four{
+       text-align: center;
+}
+
+.navi {
+      border: 3px groove #9F00E0;
+}
+
+
+.log {
+       border: 3px inset #4E4E4E;
+           display: inline-block;
+}
+
+.fot {
+           display: inline-block;
+         margin: 20px;
+}
+
+
+
+footer {
+      background-image:linear-gradient(#4E4E4E, #000000) ;
+}
+
+.text {
+
+     border-top: 3px double #282828;
+}
+
+.zina {
+       text-decoration: none;
+   font-size: 20px;
+   color:  #3B93E0;
+  
+}
