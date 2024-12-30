@@ -1,7 +1,7 @@
 header {
     background-image:linear-gradient(#4E4E4E, #000000) ;
     border: 5px inset black;
-    color: #3B93E0;
+    
 
 }
 
@@ -14,7 +14,7 @@ header {
    font-size: 25px;
    color: #440180;
    border: 3px inset #4E4E4E;
-      background-image:linear-gradient(#0C1012, #000000) ;
+     
       margin: 5px;
 }
 
@@ -22,15 +22,10 @@ header {
     text-align: center;
 }
 
-main {
-      
-      
-        color: #3B93E0;
 
-}
 
 .ine {
-      border: 5px inset #4E4E4E;
+    border : 5px inset #4E4E4E;
 }
 
 
@@ -44,9 +39,6 @@ main {
    margin:  20px;
 }
 
-.steam {
-    color: #3B93E0;
-}
 
 
 .st {
@@ -58,10 +50,7 @@ main {
     font-size: 24px;
 }
 
-body {
- background-color: #090014;
-  color: #3B93E0;
-}
+
 
 .dis {
     display: inline-block;
@@ -89,9 +78,7 @@ body {
 
 
 
-footer {
-      background-image:linear-gradient(#4E4E4E, #000000) ;
-}
+
 
 .text {
 
@@ -101,7 +88,7 @@ footer {
 .zina {
        text-decoration: none;
    font-size: 20px;
-   color:  #3B93E0;
+  
    display: inline-block;
   
 }
@@ -109,7 +96,7 @@ footer {
 .coh {
     background-color: #A37AE1;
     color: #440180;
-    text-shadow: 3px 3px 5px #000;
+   
        border: 3px groove #9F00E0;
 }
 
@@ -152,4 +139,10 @@ footer {
     left: 500px;
      border: 3px groove #9F00E0;
       border-radius: 21px;
+}
+
+.by {
+    color: #3B93E0;
+     background-color: #090014;
+    
 }

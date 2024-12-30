@@ -36,6 +36,66 @@ let price = [1499, 869, 1199, 1299, 1399, 700 ]
            
                first.innerHTML= every
         })}
+
+
+
+                let h = document.querySelector('.hi')
+        h.addEventListener('click', switchTheme)
+
+   let images = document.querySelectorAll(".ine");
+
+   
+
+
         
-  
-    
+        function switchTheme() {
+            let body = document.querySelector('.by')
+             let footer = document.querySelector('.f')
+             let header = document.querySelector('.hr')
+             let pov = document.querySelector('.pov')
+             let hr = document.querySelector('.hr')
+             let log = document.querySelector('.logo')
+           
+         
+           if(current_background == '#090014') {
+           body.style.color = "#001133"
+           current_background = '#C56EFF';
+           body.style.backgroundColor = "#16DEB8";
+           for (let i = 0; i < images.length; i++){
+            images[i].style.border = "5px inset #F3EDF6";}
+             footer.style.backgroundImage = "linear-gradient(#4BCCC7, #9199CB)"
+              header.style.backgroundImage = "linear-gradient(#4BCCC7, #9199CB)"
+               pov.style.backgroundImage = "linear-gradient(#4BCCC7, #9199CB)"
+               hr.style.border = "3px inset #F3EDF6";
+                log.style.border = "3px inset #F3EDF6";
+                
+          } 
+          else {
+              body.style.color = " #3B93E0"
+              current_background = '#090014';
+              body.style.backgroundColor = "#090014";
+              for (let i = 0; i < images.length; i++){
+               images[i].style.border = "5px inset #4E4E4E";}
+                footer.style.backgroundImage = "linear-gradient(#4E4E4E, #000000)"
+                  header.style.backgroundImage = "linear-gradient(#4E4E4E, #000000)"
+                    pov.style.backgroundImage = "linear-gradient(#0C1012, #000000)"
+                    hr.style.border = "3px inset #4E4E4E";
+                    log.style.border = "3px inset #4E4E4E";
+                    
+          }
+        
+        
+        }
+        
+        let current_background = '#090014';
+
+
+let nanaElements = document.querySelectorAll('.nana');
+
+for (let i = 0; i < nanaElements.length; i++) {
+  nanaElements[i].addEventListener('click', function switchTheme() {
+    nanaElements[i].innerHTML = 'Додано до кошика!';
+  });
+}
+
+
